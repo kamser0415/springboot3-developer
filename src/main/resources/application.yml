@@ -4,7 +4,7 @@ spring:
 
   # \uB514\uD3F4\uD2B8\uB294 local\uC774\uACE0 \uD14C\uC2A4\uD2B8\uB294 \uC544\uB798 test\uD504\uB85C\uD30C\uC77C\uB85C \uB3CC\uB9AC\uB3C4\uB85D \uD558\uACE0 \uC704\uB294 \uACF5\uC6A9\uC774\uB2E4.
   datasource:
-    url: jdbc:h2:mem:~/cafeKioskApplication
+    url: jdbc:h2:mem:testdb
     driver-class-name: org.h2.Driver
     username: sa
     password:
@@ -62,7 +62,6 @@ spring:
     init:
       mode: never
       encoding: utf-8
-
 
       # \uD14C\uC2A4\uD2B8\uB294 \uC9C1\uC811 \uD14C\uC774\uD130\uB97C \uB123\uACE0 \uD14C\uC2A4\uD2B8\uB97C \uD558\uAE30\uB54C\uBB38\uC5D0 sql\uC744 \uC544\uC608 \uC2E4\uD589\uD558\uC9C0 \uC54A\uB294\uB2E4.
 logging:
